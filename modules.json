@@ -5,6 +5,11 @@
         "https://github.com/nf-core/modules.git": {
             "modules": {
                 "nf-core": {
+                    "ashlar": {
+                        "branch": "master",
+                        "git_sha": "97b7dc798a002688b6304a453da932b2144727b1",
+                        "installed_by": ["modules"]
+                    },
                     "backsub": {
                         "branch": "master",
                         "git_sha": "497959008150b4b0df530d74941a448f8cf0d60e",
@@ -17,7 +22,12 @@
                     },
                     "cellpose": {
                         "branch": "master",
-                        "git_sha": "8f65c1af123207d234ea3fc6dcd19d30b4a0e322",
+                        "git_sha": "716ef3019b66772a817b417078edce2f7b337858",
+                        "installed_by": ["modules"]
+                    },
+                    "coreograph": {
+                        "branch": "master",
+                        "git_sha": "b9829e1064382745d8dff7f1d74d2138d2864f71",
                         "installed_by": ["modules"]
                     },
                     "custom/dumpsoftwareversions": {
@@ -32,7 +42,7 @@
                     },
                     "mcquant": {
                         "branch": "master",
-                        "git_sha": "96ca9f700f2c8b1cf1f0765419a79c09ff53db08",
+                        "git_sha": "b9829e1064382745d8dff7f1d74d2138d2864f71",
                         "installed_by": ["modules"]
                     },
                     "multiqc": {
@@ -42,7 +52,7 @@
                     },
                     "scimap/mcmicro": {
                         "branch": "master",
-                        "git_sha": "423fa88f8e904b33cad103e8e69eb351b2a4ecb9",
+                        "git_sha": "ebb27711cd5f4de921244bfa81c676504072d31c",
                         "installed_by": ["modules"]
                     }
                 }
